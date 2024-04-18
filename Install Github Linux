@@ -1,1 +1,129 @@
-- https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+
+
+root@chile:/export/home/csmone# (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
+&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+&& wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+bash: dpkg: command not found
+tee: /etc/apt/sources.list.d/github-cli.list: No such file or directory
+root@chile:/export/home/csmone# (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) && sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+tee: /etc/apt/sources.list.d/github-cli.list: No such file or directory
+root@chile:/export/home/csmone# dpkg help
+bash: dpkg: command not found
+root@chile:/export/home/csmone# (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) && sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+tee: /etc/apt/sources.list.d/github-cli.list: No such file or directory
+root@chile:/export/home/csmone# (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) && sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y                                                                                         tee: /etc/apt/sources.list.d/github-cli.list: No such file or directory
+root@chile:/export/home/csmone# (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) && sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg -vv
+mode of '/etc/apt/keyrings/githubcli-archive-keyring.gpg' retained as 0644 (rw-r--r--)
+root@chile:/export/home/csmone# touch /etc/apt/sources.list.d/github-cli.list
+touch: cannot touch '/etc/apt/sources.list.d/github-cli.list': No such file or directory
+root@chile:/export/home/csmone# echo /etc/apt/sources.list.d/github-cli.list
+/etc/apt/sources.list.d/github-cli.list
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+tee: /etc/apt/sources.list.d/github-cli.list: No such file or directory
+root@chile:/export/home/csmone# ls -la /etc/apt/sources.list.d/github-cli.list
+ls: cannot access '/etc/apt/sources.list.d/github-cli.list': No such file or directory
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" && sudo apt update && sudo apt install gh -y
+deb [arch=Linux chile.cs.unh.edu 6.7.11-200.fc39.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 27 16:50:39 UTC 2024 x86_64 GNU/Linux signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+sudo: apt: command not found
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" && sudo apt update && apt install gh -y
+deb [arch=Linux chile.cs.unh.edu 6.7.11-200.fc39.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 27 16:50:39 UTC 2024 x86_64 GNU/Linux signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+sudo: apt: command not found
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" && apt update && apt install gh -y
+deb [arch=Linux chile.cs.unh.edu 6.7.11-200.fc39.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 27 16:50:39 UTC 2024 x86_64 GNU/Linux signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+bash: apt: command not found
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" && apt-get update && apt-get install gh -y
+deb [arch=Linux chile.cs.unh.edu 6.7.11-200.fc39.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 27 16:50:39 UTC 2024 x86_64 GNU/Linux signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+bash: apt-get: command not found
+root@chile:/export/home/csmone# sudo apt update
+sudo: apt: command not found
+root@chile:/export/home/csmone# apt update
+bash: apt: command not found
+root@chile:/export/home/csmone# update
+bash: update: command not found
+root@chile:/export/home/csmone# sudo apt upgrade -y
+sudo: apt: command not found
+root@chile:/export/home/csmone# aptget
+bash: aptget: command not found
+root@chile:/export/home/csmone# apt-get
+bash: apt-get: command not found
+root@chile:/export/home/csmone# echo "deb [arch=$(uname -a) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" && sudo dnf update && sudo dnf install gh -y
+deb [arch=Linux chile.cs.unh.edu 6.7.11-200.fc39.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Mar 27 16:50:39 UTC 2024 x86_64 GNU/Linux signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+Repository copr:copr.fedorainfracloud.org:phracek:PyCharm is listed more than once in the configuration
+Kubernetes                                                                              6.4 kB/s | 1.4 kB     00:00
+Errors during downloading metadata for repository 'kubernetes':
+  - Status code: 404 for https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64/repodata/repomd.xml (IP: 2607:f8b0:4006:821::200e)
+Error: Failed to download metadata for repo 'kubernetes': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+trinity-r14                                                                              18  B/s | 230  B     00:12
+Errors during downloading metadata for repository 'trinity-r14':
+  - Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-x86_64.list (IP: 37.205.10.16)
+Error: Failed to download metadata for repo 'trinity-r14': Cannot prepare internal mirrorlist: Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-x86_64.list (IP: 37.205.10.16)
+trinity-r14-noarch                                                                       19  B/s | 230  B     00:12
+Errors during downloading metadata for repository 'trinity-r14-noarch':
+  - Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-noarch.list (IP: 37.205.10.16)
+Error: Failed to download metadata for repo 'trinity-r14-noarch': Cannot prepare internal mirrorlist: Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-noarch.list (IP: 37.205.10.16)
+Fedora 39 - x86_64 - VirtualBox                                                         780  B/s | 819  B     00:01
+Fedora 39 - x86_64 - VirtualBox                                                         2.5 kB/s | 1.7 kB     00:00
+Fedora 39 - x86_64 - VirtualBox                                                          21 kB/s | 819  B     00:00
+Error: Failed to download metadata for repo 'virtualbox': repomd.xml GPG signature verification error: Signing key not found
+Ignoring repositories: kubernetes, trinity-r14, trinity-r14-noarch, virtualbox
+Last metadata expiration check: 2:08:54 ago on Wed 17 Apr 2024 10:50:30 PM EDT.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Repository copr:copr.fedorainfracloud.org:phracek:PyCharm is listed more than once in the configuration
+Kubernetes                                                                              9.7 kB/s | 1.4 kB     00:00
+Errors during downloading metadata for repository 'kubernetes':
+  - Status code: 404 for https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64/repodata/repomd.xml (IP: 2607:f8b0:4006:821::200e)
+Error: Failed to download metadata for repo 'kubernetes': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+trinity-r14                                                                                                                                                                           18  B/s | 230  B     00:12
+Errors during downloading metadata for repository 'trinity-r14':
+  - Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-x86_64.list (IP: 37.205.10.16)
+Error: Failed to download metadata for repo 'trinity-r14': Cannot prepare internal mirrorlist: Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-x86_64.list (IP: 37.205.10.16)
+trinity-r14-noarch                                                                                                                                                                    18  B/s | 230  B     00:12
+Errors during downloading metadata for repository 'trinity-r14-noarch':
+  - Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-noarch.list (IP: 37.205.10.16)
+Error: Failed to download metadata for repo 'trinity-r14-noarch': Cannot prepare internal mirrorlist: Status code: 404 for http://mirror.ppa.trinitydesktop.org/trinity/rpm/f36/trinity-r14-noarch.list (IP: 37.205.10.16)
+Fedora 39 - x86_64 - VirtualBox                                                                                                                                                       20 kB/s | 819  B     00:00
+Fedora 39 - x86_64 - VirtualBox                                                                                                                                                      3.2 kB/s | 1.7 kB     00:00
+Fedora 39 - x86_64 - VirtualBox                                                                                                                                                       26 kB/s | 819  B     00:00
+Error: Failed to download metadata for repo 'virtualbox': repomd.xml GPG signature verification error: Signing key not found
+Ignoring repositories: kubernetes, trinity-r14, trinity-r14-noarch, virtualbox
+Last metadata expiration check: 2:09:21 ago on Wed 17 Apr 2024 10:50:30 PM EDT.
+Dependencies resolved.
+=====================================================================================================================================================================================================================
+ Package                                       Architecture                                      Version                                                    Repository                                          Size
+=====================================================================================================================================================================================================================
+Installing:
+ gh                                            x86_64                                            2.45.0-1.fc39                                              updates                                            9.1 M
+
+Transaction Summary
+=====================================================================================================================================================================================================================
+Install  1 Package
+
+Total download size: 9.1 M
+Installed size: 46 M
+Downloading Packages:
+gh-2.45.0-1.fc39.x86_64.rpm                                                                                                                                                          8.8 MB/s | 9.1 MB     00:01
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                                                5.8 MB/s | 9.1 MB     00:01
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                             1/1
+  Installing       : gh-2.45.0-1.fc39.x86_64                                                                                                                                                                     1/1
+  Running scriptlet: gh-2.45.0-1.fc39.x86_64                                                                                                                                                                     1/1
+  Verifying        : gh-2.45.0-1.fc39.x86_64                                                                                                                                                                     1/1
+
+Installed:
+  gh-2.45.0-1.fc39.x86_64
+
+Complete!
+root@chile:/export/home/csmone#
