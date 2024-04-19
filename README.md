@@ -1,5 +1,11 @@
 # Writers-Block
 
+- 4/19/2024
+
+Realized it makes more sense to use gitlab for now, just gotta set up a PW with STK.
+
+_https://docs.gitlab.com/ee/api/rest/_
+
 
 - 4/18/2024
 
