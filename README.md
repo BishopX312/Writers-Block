@@ -1,4 +1,9 @@
 # Writers-Block
+
+- 8/19/2024
+
+https://www.pluralsight.com/resources/blog/data/how-build-large-language-model
+
 - 6/25/2024
 Food for thought:
 
