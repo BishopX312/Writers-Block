@@ -1,4 +1,11 @@
 # Writers-Block
+- 8/21/2024
+
+      https://www.pluralsight.com/resources/blog/data/how-build-large-language-model#basics
+      https://wasmedge.org/docs/
+      https://seehiong.github.io/2024/deploying-llms-with-wasmedge-in-homelab/
+      https://github.com/pires/android-obd-reader?tab=readme-ov-file
+      https://github.com/pires/obd-server/
 
 - 8/19/2024
 
