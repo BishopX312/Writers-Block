@@ -1,5 +1,13 @@
 # Writers-Block
 - 8/21/2024
+- Virtual box:
+  
+      https://nerdschalk.com/how-to-install-and-use-virtualbox-on-windows-11/
+      https://pureinfotech.com/install-windows-11-virtualbox/
+      https://forums.virtualbox.org/viewtopic.php?t=107461
+
+  
+- Misc
 
       https://www.pluralsight.com/resources/blog/data/how-build-large-language-model#basics
       https://wasmedge.org/docs/
