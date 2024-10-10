@@ -1,4 +1,14 @@
 # Writers-Block
+- 10/10/2024
+
+      https://www.kdnuggets.com/step-by-step-guide-to-deploying-ml-models-with-docker
+      https://medium.com/search/publications?q=scikit-learn
+  
+
+
+
+
+
 - 8/21/2024
 - Virtual box:
   
