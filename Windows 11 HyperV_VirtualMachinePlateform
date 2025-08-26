@@ -1,5 +1,11 @@
 # 8/26/2025
 
+- https://learn.microsoft.com/en-us/answers/questions/3855712/i-also-cant-enable-virtual-machine-platform-featur
+
+# This is to install hyper-V. Which seems to work, but does not allow for installation of the rest of the required features for WSL.
+           Ultimately for Virtualization -- Do You need virtualization right now for what you are looking to do???
+
+
 - https://pureinfotech.com/install-hyperv-home-windows-11/
 
 - https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities?view=windows-11&utm_source=chatgpt.com
