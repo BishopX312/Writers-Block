@@ -13,6 +13,8 @@
   Just some ideas:
 
    - https://www.regexone.com/
+   - https://geekflare.com/consumer-tech/windows-11-registry-tweak/
+  
   
     
 
