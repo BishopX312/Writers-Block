@@ -11,8 +11,10 @@
       Not like you live with a bunch of people or anything Dude.
 
   Just some ideas:
+
+   - https://www.regexone.com/
   
-    [https://www.regexone.com/lesson/letters_and_digits?](https://www.regexone.com/)
+    
 
 
 
