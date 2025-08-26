@@ -1,6 +1,10 @@
 # Writers-Block
 
 - 8/25/2025
+
+10:55pm 8/25/2025:
+
+  Still here, Just looking at AI and some of the ideas behind it. Maybe it can at least bridge the gap?? I dunno. Lets see where this rabbit hole leads me.
   
       Hello friend..
 
