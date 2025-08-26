@@ -1,13 +1,14 @@
 # Writers-Block
 
 - 8/25/2025
+  
       Hello friend..
 
-Been a minute, I don't really know what is going on. I don't wanna go too much into my life onthis because I dunno who reads it. But I need a place to say Blah!
-I dont know the things I used to really enjoy when I enjoyed Computer Science. I don't know the thing I want to look at or even study.
+      Been a minute, I don't really know what is going on. I don't wanna go too much into my life onthis because I dunno who reads it. But I need a place to say Blah!
+      I dont know the things I used to really enjoy when I enjoyed Computer Science. I don't know the thing I want to look at or even study.
 
-Homelab? I dunno if I really wanna do anything of that nature though, Tho I could be looking into what types of home labs I could make?
-Not like you live with a bunch of people or anything Dude. 
+      Homelab? I dunno if I really wanna do anything of that nature though, Tho I could be looking into what types of home labs I could make?
+      Not like you live with a bunch of people or anything Dude. 
 
 
 
