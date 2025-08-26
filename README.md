@@ -8,7 +8,10 @@
       I dont know the things I used to really enjoy when I enjoyed Computer Science. I don't know the thing I want to look at or even study.
 
       Homelab? I dunno if I really wanna do anything of that nature though, Tho I could be looking into what types of home labs I could make?
-      Not like you live with a bunch of people or anything Dude. 
+      Not like you live with a bunch of people or anything Dude.
+
+  Just some ideas:
+    https://www.regexone.com/lesson/letters_and_digits?
 
 
 
