@@ -12,7 +12,7 @@
 
   Just some ideas:
   
-    https://www.regexone.com/lesson/letters_and_digits?
+    [https://www.regexone.com/lesson/letters_and_digits?](https://www.regexone.com/)
 
 
 
