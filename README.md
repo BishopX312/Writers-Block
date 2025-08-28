@@ -1,6 +1,7 @@
 # Writers-Block
 
 - 8/27/2025
+
 Just some things I found for the windows registry tweaks. I think that pirated version of office maaaaay have had some self replicating scripts for key logging and my camera. Interesting website where I found the info.
 
       https://www.nirsoft.net/  <-- Little bit suspect.
